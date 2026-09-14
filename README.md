@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MD Harun — Professional Portfolio
 
-## Getting Started
+Personal portfolio of **Mohammad Harun Or Rashid**, focused on AI prompt architecture, workflow design, LLM output evaluation, educational content, assessment design, testing, and quality assurance.
 
-First, run the development server:
+## Live Website
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**https://mdharun.com**
+
+---
+
+## Professional Focus
+
+I design, test, evaluate, and refine AI-assisted workflows for structured content, assessment, and quality-controlled generation.
+
+Current areas of focus include:
+
+- Prompt Architecture
+- Prompt Engineering
+- AI Workflow Design
+- LLM Output Evaluation
+- Prompt Debugging
+- Constraint Design
+- Adversarial Testing
+- Failure Analysis
+- Educational Content
+- Assessment Design
+- AI Quality Assurance
+- Human-in-the-Loop Workflows
+
+---
+
+## Featured Project
+
+### AI-Assisted Mathematics Assessment Generator
+
+A tested prompt-and-QA workflow for generating structured Grade 9 Mathematics assessments.
+
+The project demonstrates:
+
+- difficulty control;
+- concept-diversity design;
+- duplicate prevention;
+- misconception analysis;
+- mathematical verification;
+- instruction hierarchy;
+- standard testing;
+- stress testing;
+- adversarial testing;
+- failure analysis;
+- graceful failure handling.
+
+Case study:
+
+https://mdharun.com/projects/ai-math-assessment-generator
+
+---
+
+## Project Approach
+
+The portfolio focuses on showing the process behind AI work:
+
+```text
+Requirements
+    ↓
+Prompt Architecture
+    ↓
+Generation
+    ↓
+Testing
+    ↓
+Failure Analysis
+    ↓
+Refinement + QA
+    ↓
+Human Review
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

@@ -1,6 +1,7 @@
 import ProjectFlowDiagram from "@/components/ProjectFlowDiagram";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import SocialLinks from "@/components/SocialLinks";
 
 const services = [
     {
@@ -323,9 +324,10 @@ export default function Home() {
                                         mdharun.work@gmail.com
                                     </p>
 
-                                    <p className="text-sm text-white/50">
-                                        LinkedIn · Upwork · Fiverr · GitHub
-                                    </p>
+                                    <SocialLinks
+                                        className="flex flex-wrap gap-x-4 gap-y-2"
+                                        linkClassName="text-sm font-semibold text-white/55 transition hover:text-white"
+                                    />
                                 </div>
                             </div>
                         </div>
