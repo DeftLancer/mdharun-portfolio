@@ -1,21 +1,21 @@
-# Project 02 Website Integration
+# Project 03 Website Integration
 
 This pack adds:
 
-- Project 02 case-study page
-- Project 02 technical-artifact data
+- Project 03 case-study page
+- Project 03 technical-artifact data
 - Expand/copy artifact UI
-- Evaluation workflow diagram
+- Educational-content workflow diagram
 - Homepage Selected Work card
 
 ## 1. Copy these files into the portfolio repo
 
 ```text
-src/data/project02Artifacts.js
-src/components/Project02Artifacts.js
-src/components/Project02Flow.js
-src/components/Project02Card.js
-src/app/projects/ai-output-evaluation-quality-control/page.js
+src/data/project03Artifacts.js
+src/components/Project03Artifacts.js
+src/components/Project03Flow.js
+src/components/Project03Card.js
+src/app/projects/ai-assisted-educational-content-workflow/page.js
 ```
 
 ## 2. Update the homepage
@@ -26,52 +26,50 @@ Open:
 src/app/page.js
 ```
 
-Add this import with the other component imports:
+Add this import:
 
 ```js
-import Project02Card from "@/components/Project02Card";
+import Project03Card from "@/components/Project03Card";
 ```
 
-Then place this line inside the existing `Selected work` section, directly
-after the complete Project 01 card and before the Services section:
+Place the card inside the existing `Selected work` section after Project 02:
 
 ```jsx
 <Project02Card />
+<Project03Card />
 ```
-
-Do not replace the finished Project 01 card.
 
 ## 3. Update sitemap
 
-Replace `src/app/sitemap.js` with the complete code in `sitemap.js.complete.txt`.
+Replace `src/app/sitemap.js` with the code from:
+
+```text
+sitemap.js.complete.txt
+```
 
 ## 4. Run locally
-
-From the project root:
 
 ```bash
 npm run dev
 ```
 
-Open:
+Check:
 
 ```text
-http://localhost:3000
-http://localhost:3000/projects/ai-output-evaluation-quality-control
+http://localhost:3000/
+http://localhost:3000/projects/ai-assisted-educational-content-workflow
 ```
 
-## 5. Production check
+## 5. Production build
 
 ```bash
 npm run build
 ```
 
-Then commit and push:
+## 6. Commit and push
 
 ```bash
 git add .
-git commit -m "Add Project 02 AI output evaluation case study"
+git commit -m "Add Project 03 educational content workflow case study"
 git push
 ```
-
-Vercel should deploy automatically if the GitHub project is already connected.

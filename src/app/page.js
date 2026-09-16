@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import SocialLinks from "@/components/SocialLinks";
 import Project02Card from "@/components/Project02Card";
+import Project03Card from "@/components/Project03Card";
 
 const services = [
     {
@@ -219,6 +220,7 @@ export default function Home() {
                         </article>
 
                         <Project02Card />
+                        <Project03Card />
                     </div>
                 </section>
 
