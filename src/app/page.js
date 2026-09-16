@@ -2,6 +2,7 @@ import ProjectFlowDiagram from "@/components/ProjectFlowDiagram";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import SocialLinks from "@/components/SocialLinks";
+import Project02Card from "@/components/Project02Card";
 
 const services = [
     {
@@ -121,9 +122,19 @@ export default function Home() {
                         <article className="mt-12 overflow-hidden rounded-2xl border border-[var(--border)] bg-white">
                             <div className="grid lg:grid-cols-[0.75fr_1.25fr]">
                                 <div className="border-b border-[var(--border)] bg-[var(--foreground)] p-8 text-white lg:border-r lg:border-b-0 md:p-10">
-                                    <p className="text-xs font-bold uppercase tracking-[0.14em] text-white/60">
-                                        Project 01
-                                    </p>
+                                    <div className="flex items-center justify-between gap-4">
+                                        <p className="text-xs font-bold uppercase tracking-[0.14em] text-white/60">
+                                            Project 01
+                                        </p>
+
+                                        <a
+                                            href="/projects/ai-math-assessment-generator"
+                                            className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold !text-white transition hover:bg-white/20"
+                                        >
+                                            Read case study
+                                            <span aria-hidden="true">→</span>
+                                        </a>
+                                    </div>
 
                                     <h3 className="mt-5 text-3xl font-bold tracking-[-0.045em]">
                                         AI-Assisted Mathematics Assessment
@@ -206,6 +217,8 @@ export default function Home() {
                                 </div>
                             </div>
                         </article>
+
+                        <Project02Card />
                     </div>
                 </section>
 
