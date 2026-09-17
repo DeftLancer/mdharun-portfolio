@@ -4,38 +4,24 @@ import Project03Flow from "@/components/Project03Flow";
 import Project03Artifacts from "@/components/Project03Artifacts";
 
 export const metadata = {
-    title: "AI-Assisted Mathematics Assessment Generator",
+    title: "AI-Assisted Educational Content Workflow",
     description:
-        "A tested prompt-and-QA workflow demonstrating prompt architecture, LLM evaluation, adversarial testing, mathematical verification, and failure handling.",
-
+        "A tested portfolio prototype for AI-assisted lesson design, learning-objective alignment, assessment mapping, instructional QA, and human review.",
     alternates: {
-        canonical: "/projects/ai-math-assessment-generator",
+        canonical: "/projects/ai-assisted-educational-content-workflow",
     },
-
     openGraph: {
         type: "article",
-        url: "/projects/ai-math-assessment-generator",
-        title: "AI-Assisted Mathematics Assessment Generator | MD Harun",
+        url: "/projects/ai-assisted-educational-content-workflow",
+        title: "AI-Assisted Educational Content Workflow | MD Harun",
         description:
-            "A tested prompt-and-QA workflow demonstrating prompt architecture, LLM evaluation, adversarial testing, mathematical verification, and failure handling.",
-
-        images: [
-            {
-                url: "/opengraph-image",
-                width: 1200,
-                height: 630,
-                alt: "MD Harun — AI Prompt & Workflow Specialist",
-            },
-        ],
+            "A tested portfolio prototype connecting learning objectives, instruction, practice, assessment, verification, and human review.",
     },
-
     twitter: {
         card: "summary_large_image",
-        title: "AI-Assisted Mathematics Assessment Generator | MD Harun",
+        title: "AI-Assisted Educational Content Workflow | MD Harun",
         description:
-            "A tested prompt-and-QA workflow demonstrating prompt architecture, LLM evaluation, adversarial testing, mathematical verification, and failure handling.",
-
-        images: ["/opengraph-image"],
+            "A tested portfolio prototype connecting learning objectives, instruction, practice, assessment, verification, and human review.",
     },
 };
 

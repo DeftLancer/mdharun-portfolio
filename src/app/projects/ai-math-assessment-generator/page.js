@@ -10,9 +10,8 @@ import TechnicalArtifacts from "@/components/TechnicalArtifacts";
 
 export const metadata = {
     title: "AI-Assisted Mathematics Assessment Generator",
-
     description:
-        "Case study showing how I designed, tested, debugged, and refined an AI-assisted mathematics assessment workflow using prompt architecture, adversarial testing, mathematical verification, and structured QA.",
+        "A tested prompt-and-QA workflow demonstrating prompt architecture, LLM evaluation, adversarial testing, mathematical verification, and failure handling.",
 
     alternates: {
         canonical: "/projects/ai-math-assessment-generator",
@@ -20,22 +19,26 @@ export const metadata = {
 
     openGraph: {
         type: "article",
-
         url: "/projects/ai-math-assessment-generator",
-
         title: "AI-Assisted Mathematics Assessment Generator | MD Harun",
-
         description:
             "A tested prompt-and-QA workflow demonstrating prompt architecture, LLM evaluation, adversarial testing, mathematical verification, and failure handling.",
+        images: [
+            {
+                url: "/opengraph-image",
+                width: 1200,
+                height: 630,
+                alt: "MD Harun — AI Prompt & Workflow Specialist",
+            },
+        ],
     },
 
     twitter: {
         card: "summary_large_image",
-
         title: "AI-Assisted Mathematics Assessment Generator | MD Harun",
-
         description:
-            "A tested AI assessment workflow with documented testing, failures, fixes, and quality assurance.",
+            "A tested prompt-and-QA workflow demonstrating prompt architecture, LLM evaluation, adversarial testing, mathematical verification, and failure handling.",
+        images: ["/opengraph-image"],
     },
 };
 
