@@ -38,7 +38,7 @@ export const metadata = {
         title: "AI-Assisted Mathematics Assessment Generator | MD Harun",
         description:
             "A tested prompt-and-QA workflow demonstrating prompt architecture, LLM evaluation, adversarial testing, mathematical verification, and failure handling.",
-        images: ["/opengraph-image"],
+        images: ["https://mdharun.com/opengraph-image"],
     },
 };
 

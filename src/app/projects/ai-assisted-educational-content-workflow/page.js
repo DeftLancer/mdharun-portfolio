@@ -16,12 +16,21 @@ export const metadata = {
         title: "AI-Assisted Educational Content Workflow | MD Harun",
         description:
             "A tested portfolio prototype connecting learning objectives, instruction, practice, assessment, verification, and human review.",
+        images: [
+            {
+                url: "https://mdharun.com/opengraph-image",
+                width: 1200,
+                height: 630,
+                alt: "MD Harun — AI Prompt & Workflow Specialist",
+            },
+        ],
     },
     twitter: {
         card: "summary_large_image",
         title: "AI-Assisted Educational Content Workflow | MD Harun",
         description:
             "A tested portfolio prototype connecting learning objectives, instruction, practice, assessment, verification, and human review.",
+        images: ["https://mdharun.com/opengraph-image"],
     },
 };
 
