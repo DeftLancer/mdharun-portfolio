@@ -5,6 +5,7 @@ import SocialLinks from "@/components/SocialLinks";
 import Project02Card from "@/components/Project02Card";
 import Project03Card from "@/components/Project03Card";
 import Project04Card from "@/components/Project04Card";
+import Project05Card from "@/components/Project05Card";
 
 const services = [
     {
@@ -223,6 +224,7 @@ export default function Home() {
                         <Project02Card />
                         <Project03Card />
                         <Project04Card />
+                        <Project05Card />
                     </div>
                 </section>
 
