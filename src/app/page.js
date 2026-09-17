@@ -6,6 +6,7 @@ import Project02Card from "@/components/Project02Card";
 import Project03Card from "@/components/Project03Card";
 import Project04Card from "@/components/Project04Card";
 import Project05Card from "@/components/Project05Card";
+import ProjectsGrid from "@/components/ProjectsGrid";
 
 const services = [
     {
@@ -221,10 +222,20 @@ export default function Home() {
                             </div>
                         </article>
 
-                        <Project02Card />
+                        {/* <Project02Card />
                         <Project03Card />
                         <Project04Card />
-                        <Project05Card />
+                        <Project05Card /> */}
+                        <div className="mt-14 flex items-end justify-between gap-6">
+                            <div>
+                                <p className="eyebrow">More case studies</p>
+                                <h3 className="mt-2 text-2xl font-bold tracking-[-0.035em]">
+                                    Additional tested AI workflows.
+                                </h3>
+                            </div>
+                        </div>
+
+                        <ProjectsGrid />
                     </div>
                 </section>
 
