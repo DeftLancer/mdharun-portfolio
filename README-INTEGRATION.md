@@ -1,21 +1,21 @@
-# Project 03 Website Integration
+# Project 04 Website Integration
 
 This pack adds:
 
-- Project 03 case-study page
-- Project 03 technical-artifact data
+- Project 04 case-study page
+- Project 04 technical-artifact data
 - Expand/copy artifact UI
-- Educational-content workflow diagram
+- Business-documentation workflow diagram
 - Homepage Selected Work card
 
 ## 1. Copy these files into the portfolio repo
 
 ```text
-src/data/project03Artifacts.js
-src/components/Project03Artifacts.js
-src/components/Project03Flow.js
-src/components/Project03Card.js
-src/app/projects/ai-assisted-educational-content-workflow/page.js
+src/data/project04Artifacts.js
+src/components/Project04Artifacts.js
+src/components/Project04Flow.js
+src/components/Project04Card.js
+src/app/projects/ai-assisted-sop-knowledge-base-workflow/page.js
 ```
 
 ## 2. Update the homepage
@@ -26,22 +26,29 @@ Open:
 src/app/page.js
 ```
 
-Add this import:
+Add:
 
 ```js
-import Project03Card from "@/components/Project03Card";
+import Project04Card from "@/components/Project04Card";
 ```
 
-Place the card inside the existing `Selected work` section after Project 02:
+Inside the existing Selected Work section, place it after Project 03:
 
 ```jsx
 <Project02Card />
 <Project03Card />
+<Project04Card />
 ```
 
 ## 3. Update sitemap
 
-Replace `src/app/sitemap.js` with the code from:
+Replace:
+
+```text
+src/app/sitemap.js
+```
+
+with the content from:
 
 ```text
 sitemap.js.complete.txt
@@ -57,7 +64,7 @@ Check:
 
 ```text
 http://localhost:3000/
-http://localhost:3000/projects/ai-assisted-educational-content-workflow
+http://localhost:3000/projects/ai-assisted-sop-knowledge-base-workflow
 ```
 
 ## 5. Production build
@@ -70,6 +77,6 @@ npm run build
 
 ```bash
 git add .
-git commit -m "Add Project 03 educational content workflow case study"
+git commit -m "Add Project 04 SOP and knowledge-base workflow case study"
 git push
 ```
