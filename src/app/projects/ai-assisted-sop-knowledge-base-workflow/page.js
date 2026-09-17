@@ -7,14 +7,7 @@ export const metadata = {
     title: "AI-Assisted SOP & Knowledge-Base Workflow",
     description:
         "A tested portfolio prototype for source-grounded SOP design, business process documentation, knowledge-base generation, internal/public information separation, and QA.",
-    images: [
-        {
-            url: "https://mdharun.com/opengraph-image",
-            width: 1200,
-            height: 630,
-            alt: "MD Harun — AI Prompt & Workflow Specialist",
-        },
-    ],
+
     alternates: {
         canonical: "/projects/ai-assisted-sop-knowledge-base-workflow",
     },
@@ -24,6 +17,14 @@ export const metadata = {
         title: "AI-Assisted SOP & Knowledge-Base Workflow | MD Harun",
         description:
             "A tested business AI workflow for turning policy and process sources into internal SOPs and public-safe knowledge-base content.",
+        images: [
+            {
+                url: "https://mdharun.com/opengraph-image",
+                width: 1200,
+                height: 630,
+                alt: "MD Harun — AI Prompt & Workflow Specialist",
+            },
+        ],
     },
     twitter: {
         card: "summary_large_image",
